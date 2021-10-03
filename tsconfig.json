@@ -1,0 +1,8 @@
+{
+	"include": [ "wwwroot/ts/**/*.ts" ],
+	"compileOnSave": true, //every time a file is saved it is compiled
+	"compilerOptions": {
+		"module": "None", //let every file be compiled on its own
+		"sourceMap": true //allows debuging 
+	}
+}
